@@ -16,7 +16,7 @@ function a (str, word) {
       for(let i = 0; i < subarray.length; i++) {
       	 let j = subarray[i].indexOf(item);
              if (j > = 0) {
-                b.push([i,j])
+                return b.push([i,j])
              }  
           } 
       })  
